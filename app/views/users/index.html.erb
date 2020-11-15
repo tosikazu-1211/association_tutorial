@@ -4,4 +4,5 @@
 <% @users.each do |user| %>
 <hr>
 <p><span>email: </span><%= link_to user.email, user_path(user.id) %></p>
+
 <% end %>
